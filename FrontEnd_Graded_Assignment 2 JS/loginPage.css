@@ -1,0 +1,62 @@
+/* LOGIN PAGE CSS */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#main-page {
+  width: 100vw;
+  height: 100vh;
+  background-color: gainsboro;
+}
+
+#login-page-container {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 30%;
+  left: 35%;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+  height: 40vh;
+  width: 30vw;
+  border-radius: 5px;
+  box-shadow: 5px 4px 20px 5px rgba(0, 0, 0, 0.6);
+}
+
+#username {
+  width: 15vw;
+  height: 5vh;
+  margin: 8px;
+  padding: 2px;
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+}
+
+#password {
+  width: 15vw;
+  height: 5vh;
+  margin: 8px;
+  padding: 2px;
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+}
+
+#login-button {
+  height: 5vh;
+  width: 5vw;
+  margin-top: 20px;
+  padding: 2px;
+  background-color: lightgreen;
+  /* color: black; */
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+::placeholder {
+  /* text-align: center; */
+  font-size: x-large;
+}
